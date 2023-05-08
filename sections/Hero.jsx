@@ -16,9 +16,7 @@ const Hero = () => (
     >
 
       <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.p variants={textVariant(1.1)} className="text-white">
-          "I'm Not Lazy Meme. I'm Resource Efficient"
-        </motion.p>
+
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
           $loth
         </motion.h1>
@@ -26,7 +24,7 @@ const Hero = () => (
           variants={textVariant(1.2)}
           className="flex flex-row justify-center items-center"
         >
-          <h1 className={styles.heroHeading}>Squar</h1>
+          <h1 className={styles.heroHeading}>Squa</h1>
 
           <div className={styles.heroDText} />
         </motion.div>
