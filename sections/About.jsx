@@ -30,7 +30,7 @@ const About = () => (
 
         conservation efforts. Our team is made up of passionate individuals who are committed to making a positive impact on the world. We have created SlothCoin
         <span className="font-extrabold text-white">
-          { ' '} (SLOTH)  { ' '}
+          { ' '} ($SLOTH)  { ' '}
         </span>
         , an ERC-20 token built on the Ethereum blockchain, to facilitate transactions within our ecosystem. A portion of the token supply is also allocated to the
         <span className="font-extrabold text-white">
