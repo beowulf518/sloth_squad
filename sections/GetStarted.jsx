@@ -37,8 +37,7 @@ const GetStarted = () => (
         />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           <p className=" text-white">
-            The SlothSquad token, SlothCoin (SLC), is an ERC-20 token built on the Ethereum blockchain. It has a maximum supply of 1 billion tokens,
-            SlothCoin will be used to facilitate transactions within the SlothSquad ecosystem, such as purchasing merchandise and participating in charity auctions. Additionally, a portion of the token supply will be allocated to the Sloth Adoption Program, providing supporters with a way to directly contribute to sloth conservation efforts
+            SlothCoin (SLC) is a deflationary ERC-20 token with a total supply of 1 billion tokens. All transactions on the SlothCoin network incur a 10% fee, which is split between redistributing 5% to all holders of SLC and adding the remaining 5% to the liquidity pool. SLC also includes a burn mechanism that decreases the total supply with each transaction, ensuring that the token's value increases over time. Our liquidity pool is designed to provide sufficient liquidity for trading, with 100% of the tokens added to the pool coming from transaction fees. By holding and trading SLC, you can support sloth conservation efforts and make a positive impact on the world.
           </p>
           {
             /*

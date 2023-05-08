@@ -49,19 +49,19 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
+    imgUrl: '/g1.png',
     title: 'Phase 1',
     subtitle:
         'Socials, KYC, Launch $SLT on Uniswap, Dextools/Etherscan Update, Build Twitter Army,s Coinmarketcap/Coingecko listings,Get $SLT trending everywhere',
   },
   {
-    imgUrl: '/planet-07.png',
+    imgUrl: '/g2.png',
     title: 'Phase 2',
     subtitle:
         'NFTs mint, Meme Partnerships, Request for MEXC and others CEX, Geckoterminal Trending, Increasing community on tiktok, instagram and discord',
   },
   {
-    imgUrl: '/planet-08.png',
+    imgUrl: '/g3.png',
     title: 'Phase 3',
     subtitle:
         'T1 Exchange listing, Certik Audit',
@@ -74,15 +74,12 @@ export const socials = [
     url: '/twitter.svg',
   },
   {
-    name: 'linkedin',
-    url: '/linkedin.svg',
+    name: 'Telegram',
+    url: '/tlg.png',
   },
   {
-    name: 'instagram',
-    url: '/instagram.svg',
+    name: 'Etherscan',
+    url: '/etherscan-logo-circle.svg',
   },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
-  },
+
 ];
