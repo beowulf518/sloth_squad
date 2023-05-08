@@ -71,7 +71,7 @@ export const insights = [
 export const socials = [
   {
     name: 'twitter',
-    url: '/twitter.svg',
+    url: '/tw.png',
   },
   {
     name: 'Telegram',
