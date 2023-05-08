@@ -52,7 +52,7 @@ export const insights = [
     imgUrl: '/g1.png',
     title: 'Phase 1',
     subtitle:
-        'Socials, KYC, Launch $SLT on Uniswap, Dextools/Etherscan Update, Build Twitter Army,s Coinmarketcap/Coingecko listings,Get $SLT trending everywhere',
+        'Socials, KYC, Launch $SLOTH on Uniswap, Dextools/Etherscan Update, Build Twitter Army,s Coinmarketcap/Coingecko listings,Get $SLT trending everywhere',
   },
   {
     imgUrl: '/g2.png',
