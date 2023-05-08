@@ -16,11 +16,14 @@ const Navbar = () => (
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >
-
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white flex items-center">
+        <img
+          src="/android-chrome-192x192.png"
+          alt="search"
+          className="w-[64px] h-[54px] object-contain"
+        />
         SLOTH SQUAD
       </h2>
-
     </div>
   </motion.nav>
 );
