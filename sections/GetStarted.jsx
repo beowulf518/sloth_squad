@@ -37,7 +37,7 @@ const GetStarted = () => (
         />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           <p className=" text-white">
-            SlothCoin (SLC) is a deflationary ERC-20 token with a total supply of 1 billion tokens. All transactions on the SlothCoin network incur a 10% fee, which is split between redistributing 5% to all holders of SLC and adding the remaining 5% to the liquidity pool. SLC also includes a burn mechanism that decreases the total supply with each transaction, ensuring that the token's value increases over time. Our liquidity pool is designed to provide sufficient liquidity for trading, with 100% of the tokens added to the pool coming from transaction fees. By holding and trading SLC, you can support sloth conservation efforts and make a positive impact on the world.
+            SlothSquad (SLOTH) is a deflationary ERC-20 token with a total supply of 1 billion tokens. All transactions on the SlothCoin network incur a 10% fee, which is split between redistributing 5% to all holders of SLOTH and adding the remaining 5% to the liquidity pool. SLOTH also includes a burn mechanism that decreases the total supply with each transaction, ensuring that the token's value increases over time. Our liquidity pool is designed to provide sufficient liquidity for trading, with 100% of the tokens added to the pool coming from transaction fees. By holding and trading SLOTH, you can support sloth conservation efforts and make a positive impact on the world.
           </p>
           {
             /*
