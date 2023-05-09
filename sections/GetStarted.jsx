@@ -37,7 +37,10 @@ const GetStarted = () => (
         />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           <p className=" text-white">
-            SlothSquad (SLOTH) is a deflationary ERC-20 token with a total supply of 1 billion tokens. All transactions on the SlothCoin network incur a 10% fee, which is split between redistributing 5% to all holders of SLOTH and adding the remaining 5% to the liquidity pool. SLOTH also includes a burn mechanism that decreases the total supply with each transaction, ensuring that the token's value increases over time. Our liquidity pool is designed to provide sufficient liquidity for trading, with 100% of the tokens added to the pool coming from transaction fees. By holding and trading SLOTH, you can support sloth conservation efforts and make a positive impact on the world.
+            SlothSquad (SLOTH) is a deflationary ERC-20 meme token with a total supply of 1 billion tokens. SLOTH is designed as a community-driven project dedicated to supporting sloth conservation efforts. All transactions on the SLOTH platform incur a 10% fee, which is added to the liquidity pool to ensure that there is always sufficient liquidity for trading.
+          </p>
+          <p className=" text-white">
+            SLOTH includes a burn mechanism that decreases the total supply with each transaction, ensuring that the token's value increases over time. By holding and trading SLOTH, you can support sloth conservation efforts and make a positive impact on the world. SLOTH is not a buy-sell token, and instead, 100% of the tokens added to the pool come from transaction fees, making SlothSquad a 100% liquidity pool meme token.
           </p>
           {
             /*

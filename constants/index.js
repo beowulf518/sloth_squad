@@ -75,11 +75,11 @@ export const socials = [
   },
   {
     name: 'Telegram',
-    url: '/tlg.png',
+    url: '/telegramlogo.png',
   },
   {
     name: 'Etherscan',
-    url: '/etherscan-logo-circle.svg',
+    url: '/etherscan-logo-circle-light.svg',
   },
 
 ];
