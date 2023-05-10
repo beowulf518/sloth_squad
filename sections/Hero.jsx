@@ -38,7 +38,7 @@ const Hero = () =>
            // }}
           />
 
-          <a href="https://app.uniswap.org/#/swap?outputCurrency=0x......&inputCurrency=ETH" target="_blank">
+          <a href="https://app.uniswap.org/#/swap?outputCurrency=0x......&inputCurrency=ETH" target="_blank" rel="noreferrer">
             <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
               <img
                 src="/stamp.png"
