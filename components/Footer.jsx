@@ -19,7 +19,7 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Join to community
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
+        <a href="https://t.me/slothsquad" target="_blank" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
             src="/twitter.png"
             alt="headset"
@@ -28,7 +28,7 @@ const Footer = () => (
           <span className="font-normal text-[16px] text-white">
             Join twitter
           </span>
-        </button>
+        </a>
       </div>
 
       <div className="flex flex-col">
@@ -44,12 +44,14 @@ const Footer = () => (
 
           <div className="flex gap-4">
             {socials.map((social) => (
+              <a href='' target='_blank'>
               <img
                 key={social.name}
                 src={social.url}
                 alt={social.name}
                 className="w-[24px] h-[24px] object-contain cursor-pointer"
               />
+              </a>
             ))}
           </div>
         </div>

@@ -72,14 +72,17 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.png',
+    href: 'https://twitter.com/SlothSquad_Meme'
   },
   {
     name: 'Telegram',
     url: '/telegramlogo.png',
+    href: 'https://t.me/slothsquad'
   },
   {
     name: 'Etherscan',
     url: '/etherscan-logo-circle-light.svg',
+    href: 'https://etherscan.io/address/0x1f0aE91308F791256bB0279a3B50bDB820A3d95f'
   },
 
 ];
