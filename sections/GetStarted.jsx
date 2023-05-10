@@ -37,7 +37,7 @@ const GetStarted = () => (
         />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           <p className=" text-white">
-            SlothSquad (SLOTH) is a deflationary ERC-20 meme token with a total supply of 1 billion tokens. SLOTH is designed as a community-driven project dedicated to supporting sloth conservation efforts. All transactions on the SLOTH platform has no fee.
+            SlothSquad (SLOTH) is a deflationary ERC-20 meme token with a total supply of 1 billion tokens. SLOTH is designed as a community-driven project dedicated to supporting sloth conservation efforts. All transactions on the SLOTH SQUAD platform has no fee.
           </p>
           <p className=" text-white">
             SLOTH includes a burn mechanism that decreases the total supply with each transaction, ensuring that the token's value increases over time. By holding and trading SLOTH, you can support sloth conservation efforts and make a positive impact on the world. SLOTH is not a buy-sell token, and instead, 100% of the tokens added to the pool come from transaction fees, making SlothSquad a 100% liquidity pool meme token.
