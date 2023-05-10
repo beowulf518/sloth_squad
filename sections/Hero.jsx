@@ -3,13 +3,14 @@
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
-import { slideIn, staggerContainer, textVariant } from '../utils/motion';
-import useIsMobile from '../components/hooks/useIsmobile';
+import { slideIn, staggerContainer } from '../utils/motion';
+// import useIsMobile from '../components/hooks/useIsmobile';
 
-const Hero = () => {
-  const isMobile = useIsMobile();
+const Hero = () =>
+// const isMobile = useIsMobile();
 
-  return (
+  // eslint-disable-next-line implicit-arrow-linebreak
+  (
     <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
       <motion.div
         variants={staggerContainer}
@@ -18,38 +19,6 @@ const Hero = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        {
-          isMobile
-            ? (
-              <div className="flex justify-center items-center flex-col relative z-10">
-                <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-                  I'm Not Lazy
-                </motion.h1>
-                <motion.div
-                  variants={textVariant(1.2)}
-                  className="flex flex-row justify-center items-center"
-                >
-
-                  <h1 className={styles.heroHeading}>I'm Resource Efficient</h1>
-                </motion.div>
-              </div>
-            )
-            : (
-              <div className="flex justify-center items-center flex-col relative z-10 -bottom-[320px]  -right-[250px]">
-                <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-                  I'm Not Lazy.
-                </motion.h1>
-                <motion.div
-                  variants={textVariant(1.2)}
-                  className="flex flex-row justify-center items-center"
-                >
-                  <h1 className={styles.heroHeading}>I'm Resource Efficient</h1>
-
-                  {/* <div className={styles.heroDText} /> */}
-                </motion.div>
-              </div>
-            )
-        }
 
         <motion.div
           variants={slideIn('right', 'tween', 0.2, 1)}
@@ -57,10 +26,16 @@ const Hero = () => {
         >
           <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
 
-          <img
-            src="/cover1.png"
+          <video
+            src="slothv.mp4"
             alt="hero_cover"
             className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+            autoPlay
+            muted
+            loop
+           // onEnded={(event) => {
+           //   event.target.pause();
+           // }}
           />
 
           <a href="#explore">
@@ -73,10 +48,9 @@ const Hero = () => {
             </div>
           </a>
         </motion.div>
+
       </motion.div>
     </section>
   );
-};
-
 export default Hero;
 
