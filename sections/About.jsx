@@ -17,7 +17,7 @@ const About = () => (
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText title="| About SlothSquad" textStyles="text-center" />
-
+      <p>CA: 0x890116eF44aB053dbFC7c41ae187B088eB16Bd2a</p>
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
